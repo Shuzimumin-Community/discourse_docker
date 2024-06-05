@@ -100,6 +100,10 @@ hooks:
         cd: $home/plugins
         cmd:
           - git clone https://github.com/discourse/docker_manager.git
+          - git clone https://github.com/discourse/discourse-adplugin.git
+          - git clone https://github.com/discourse/discourse-apple-auth.git
+          - git clone https://github.com/discourse/discourse-gamification.git
+          - git clone https://github.com/discourse/discourse-ai.git
 
 ## Any custom commands to run after building
 run:
